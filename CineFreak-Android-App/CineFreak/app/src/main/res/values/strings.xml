@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CineFreak</string>
+    <string name="loginId">UserID</string>
+    <string name="loginPass">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">CREATE NEW CINEFREAK ACCOUNT</string>
+    <string name="name">Enter Your Name</string>
+    <string name="SignId">UserID</string>
+    <string name="SignPass">Password</string>
+    <string name="RePass">Retype Password</string>
+    <string name="SignUp">SignUp</string>
+    <string name="wrongpass"> </string>
+    <string name="logout">LOGOUT</string>
+    <string name="watchlist">ADD WATCHLIST</string>
+    <string name="wishlist">ADD WISHLIST</string>
+    <string name="gotoIMDB">GO TO IMDB SITE</string>
+    <string name="exit">EXIT</string>
+    <string-array name="Category">
+        <item>Horror</item>
+        <item>Romantic</item>
+        <item>Scientific</item>
+        <item>Thriller</item>
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

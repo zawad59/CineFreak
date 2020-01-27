@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_watchlist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back5"
+    tools:context="com.example.bintu.cinefreak.WatchlistActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/mov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="9dp"
+        android:textStyle="bold"
+        android:text="Movie Name:"
+        />
+
+    <TextView
+        android:id="@+id/category1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="103dp"
+        android:textStyle="bold"
+        android:text="Category:"
+        />
+    <EditText
+        android:id="@+id/moviename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/mov"
+        android:hint="Enter the movie name"
+        />
+        <TextView
+            android:id="@+id/actor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="203dp"
+            android:textStyle="bold"
+            android:text="Director :"
+            />
+        <EditText
+            android:id="@+id/actorname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="195dp"
+            android:layout_toRightOf="@id/actor"
+            android:hint="Nick Cassavetes"
+            />
+        <TextView
+            android:id="@+id/actress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="303dp"
+            android:textStyle="bold"
+            android:text="Satrs :"
+            />
+        <EditText
+            android:id="@+id/actressname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="295dp"
+            android:layout_toRightOf="@id/actress"
+            android:hint="Emma Watson,John Watson"
+            />
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="403dp"
+            android:textStyle="bold"
+            android:text="Download/\nIMDB link:"
+            />
+        <EditText
+            android:id="@+id/linkname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="391dp"
+            android:layout_toRightOf="@id/link"
+            android:hint="http://www.imdb.com/title/tt0332280/"
+            />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/category1"
+        android:layout_marginTop="98dp"
+        />
+
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="485dp"
+        />
+    <Button
+        android:id="@+id/buttonaddwatchlist"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:onClick="onAddToWatchlistClick"
+        android:layout_centerHorizontal="true"
+        android:text="Add To Watchlist"
+        android:background="#edcb06"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="onGoToWatchClick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="700dp"
+        android:text="Go To Watchlist"
+        android:background="#edcb06"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="500dp"
+        android:text="Rating:"
+         />
+    </RelativeLayout>
+
+
+</ScrollView>

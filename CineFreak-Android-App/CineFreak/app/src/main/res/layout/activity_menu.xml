@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+
+    tools:context="com.example.bintu.cinefreak.MenuActivity">
+
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+
+
+        />
+    <Button
+        android:id="@+id/addwatchlist"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="addmovies"
+        android:text="@string/watchlist"
+        android:background="#edcb06"
+
+
+        />
+    <Button
+        android:id="@+id/wishlist"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:text="@string/wishlist"
+        android:onClick="onaddwishlistClick"
+        android:background="#edcb06"
+
+        />
+    <Button
+        android:id="@+id/series"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:onClick="onViewMovieClick"
+        android:text="VIEW YOUR\nLists"
+        android:background="#edcb06"
+
+
+        />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="420dp"
+        android:text="LOG OUT"
+        android:onClick="logout"
+        android:background="#edcb06"
+
+        />
+
+    <Button
+        android:id="@+id/gotoImdb"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onGoToImdbClick"
+        android:text="@string/gotoIMDB"
+        android:background="#edcb06"
+        android:autoLink="web"
+        />
+
+
+
+</RelativeLayout>
